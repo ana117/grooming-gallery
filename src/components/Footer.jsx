@@ -14,7 +14,7 @@ const Footer = () => {
               </a>
           </div>
 
-          <div className="flex flex-col text-lg gap-[0.5rem]">
+          <div className="hidden lg:flex flex-col text-lg gap-[0.5rem]">
                 <p className="text-xl font-semibold">Hours</p>
                 <p>Monday - Friday: 9am - 5pm</p>
                 <p>Saturday: 10am - 4pm</p>
