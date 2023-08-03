@@ -12,7 +12,7 @@ function App() {
 
     return (
         <div className="min-h-screen theme relative font-montserrat flex flex-col">
-            <BrowserRouter>
+            <BrowserRouter basename="/grooming-gallery">
                 <Navbar/>
                 <Routes>
                     <Route path="/" element={<LandingPage/>}/>
