@@ -1,10 +1,9 @@
-import Hero from "./Hero";
 import {useEffect} from "react";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./components/Navbar";
-import AboutUs from "./AboutUs";
-import Shop from "./Shop";
 import Footer from "./components/Footer";
-import Divider from "./components/Divider";
+import LandingPage from "./pages/LandingPage";
+import ShopPage from "./pages/ShopPage";
 
 function App() {
     useEffect(() => {
@@ -12,13 +11,15 @@ function App() {
     }, []);
 
     return (
-        <div className="min-h-screen theme relative font-montserrat">
-            <Navbar/>
-            <Hero/>
-            <AboutUs/>
-            <Divider/>
-            <Shop isHighlight={true} />
-            <Footer/>
+        <div className="min-h-screen theme relative font-montserrat flex flex-col">
+            <BrowserRouter>
+                <Navbar/>
+                <Routes>
+                    <Route path="/" element={<LandingPage/>}/>
+                    <Route path="/products" element={<ShopPage/>}/>
+                </Routes>
+                <Footer/>
+            </BrowserRouter>
         </div>
     );
 }

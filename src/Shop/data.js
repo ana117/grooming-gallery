@@ -33,4 +33,12 @@ const products = [
     }
 ];
 
-export default products;
+const duplicatedProducts = [];
+for (let i = 0; i < 3; i++) {
+    products.forEach((product, j) => duplicatedProducts.push({
+        ...product,
+        id: i * products.length + j + 1
+    }));
+}
+
+export {products, duplicatedProducts}
