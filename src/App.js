@@ -3,6 +3,8 @@ import {useEffect} from "react";
 import Navbar from "./components/Navbar";
 import AboutUs from "./AboutUs";
 import Shop from "./Shop";
+import Footer from "./components/Footer";
+import Divider from "./components/Divider";
 
 function App() {
     useEffect(() => {
@@ -14,7 +16,9 @@ function App() {
             <Navbar/>
             <Hero/>
             <AboutUs/>
-            <Shop/>
+            <Divider/>
+            <Shop isHighlight={true} />
+            <Footer/>
         </div>
     );
 }
