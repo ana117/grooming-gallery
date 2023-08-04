@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grooming-gallery/static/css/main.e30e5960.css",
-    "main.js": "/grooming-gallery/static/js/main.58dd980d.js",
+    "main.css": "/grooming-gallery/static/css/main.62374d84.css",
+    "main.js": "/grooming-gallery/static/js/main.8014355b.js",
     "static/media/preview-1.jpg": "/grooming-gallery/static/media/preview-1.fdab3ebfd32843ed4b0f.jpg",
     "static/media/tools.jpg": "/grooming-gallery/static/media/tools.ba62ed32306a9c4ca189.jpg",
     "static/media/preview-2.jpg": "/grooming-gallery/static/media/preview-2.c8ee88406a1d3b54ad29.jpg",
@@ -13,11 +13,11 @@
     "static/media/minimal-kit.jpg": "/grooming-gallery/static/media/minimal-kit.74b5fbf9ce2a71ff6da1.jpg",
     "static/media/logo.svg": "/grooming-gallery/static/media/logo.ba0671be8c59230083357629bd59e008.svg",
     "index.html": "/grooming-gallery/index.html",
-    "main.e30e5960.css.map": "/grooming-gallery/static/css/main.e30e5960.css.map",
-    "main.58dd980d.js.map": "/grooming-gallery/static/js/main.58dd980d.js.map"
+    "main.62374d84.css.map": "/grooming-gallery/static/css/main.62374d84.css.map",
+    "main.8014355b.js.map": "/grooming-gallery/static/js/main.8014355b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e30e5960.css",
-    "static/js/main.58dd980d.js"
+    "static/css/main.62374d84.css",
+    "static/js/main.8014355b.js"
   ]
 }
