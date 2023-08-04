@@ -1,6 +1,7 @@
 import DarkModeSwitcher from "./DarkModeSwitcher";
 import LogoImage from "../assets/logo.svg";
 import {Link} from "react-router-dom";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
     return (
@@ -12,13 +13,15 @@ const Navbar = () => {
                 <p>Grooming Gallery</p>
             </Link>
             <div className="flex items-center gap-x-[2rem] h-full">
-                <Link to="/products" className="flex items-center h-full px-[1rem] hover:bg-accent-dark hover:text-text">
+                <Link to="/products"
+                      className="flex items-center h-full px-[1rem] hover:bg-accent-dark hover:text-text">
                     Products
                 </Link>
             </div>
 
-            <div className="ms-auto">
-                <DarkModeSwitcher />
+            <div className="ms-auto flex gap-[1rem]">
+                <LanguageSwitcher/>
+                <DarkModeSwitcher/>
             </div>
         </nav>
     );

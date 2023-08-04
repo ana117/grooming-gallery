@@ -1,6 +1,9 @@
 import logo from '../assets/logo.svg';
+import {useTranslation} from "react-i18next";
 
 const AboutUs = () => {
+    const {t} = useTranslation();
+
     return (
         <div className="grid lg:grid-cols-2 gap-[2rem] py-[2rem]">
             <div className="flex justify-center">
@@ -9,17 +12,11 @@ const AboutUs = () => {
 
             <div className="flex flex-col justify-center px-[2rem] gap-[2rem]">
                 <h1 className="heading text-center">
-                    About The Grooming Gallery
+                    {t("aboutHeading")}
                 </h1>
                 <div className="flex flex-col gap-[1rem] paragraph">
                     <p>
-                        At The Grooming Gallery, we're not just a barbershop – we're a sanctuary for style and self-care.
-                        Established with a passion for the art of grooming, our barbershop has become a haven where
-                        craftsmanship and creativity converge.
-                    </p>
-                    <p>
-                        Discover a place where precision meets passion, tradition meets innovation, and grooming becomes an
-                        art form. Join us at The Grooming Gallery and experience grooming redefined.
+                        {t("aboutText")}
                     </p>
                 </div>
             </div>

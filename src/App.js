@@ -11,7 +11,7 @@ function App() {
     }, []);
 
     return (
-        <div className="min-h-screen theme relative font-montserrat flex flex-col">
+        <div className="min-h-screen theme relative font-montserrat flex flex-col whitespace-pre-line">
             <BrowserRouter basename="/grooming-gallery">
                 <Navbar/>
                 <Routes>
