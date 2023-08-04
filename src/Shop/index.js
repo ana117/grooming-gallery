@@ -1,10 +1,10 @@
 import ProductList from "./ProductList";
-import {products, duplicatedProducts} from "./data";
+import {products} from "./data";
 import {useTranslation} from "react-i18next";
 
 const Shop = ({isHighlight}) => {
     const {t} = useTranslation();
-    let productToDisplay = [...duplicatedProducts];
+    let productToDisplay = [...products];
     if (isHighlight) {
         productToDisplay = products.slice(0, 3);
     }

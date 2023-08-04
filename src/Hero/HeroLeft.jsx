@@ -11,7 +11,8 @@ const HeroLeft = () => {
                     {t("heroHeading")}
                 </h1>
                 <div className="flex flex-col gap-[1rem] paragraph">
-                    <p>{t("heroText")}</p>
+                    <p className="hidden md:inline">{t("heroText")}</p>
+                    <p className="md:hidden">{t("heroTextShort")}</p>
                 </div>
             </div>
         </div>

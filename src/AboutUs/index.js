@@ -15,9 +15,8 @@ const AboutUs = () => {
                     {t("aboutHeading")}
                 </h1>
                 <div className="flex flex-col gap-[1rem] paragraph">
-                    <p>
-                        {t("aboutText")}
-                    </p>
+                    <p className="hidden md:inline">{t("aboutText")}</p>
+                    <p className="md:hidden">{t("aboutTextShort")}</p>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import Shop from "../Shop";
 
 const ShopPage = () => {
     return (
-        <div className="pt-[6rem]">
+        <div>
             <Shop/>
         </div>
     );

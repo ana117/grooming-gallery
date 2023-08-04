@@ -10,7 +10,9 @@ const LanguageSwitcher = () => {
     return (
         <select defaultValue={i18n.language}
                 onChange={handleLanguageChange}
-                className="bg-transparent border-none outline-none text-text text-right pe-[0.25rem] cursor-pointer">
+                className="bg-transparent border-none outline-none
+                           text-text text-right
+                           pe-[0.25rem] cursor-pointer">
             <option value="id">Indonesia</option>
             <option value="en">English</option>
         </select>
